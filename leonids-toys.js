@@ -46,6 +46,6 @@ toys.push(lego);
 toys.push(elmo);
 
 for (const toy of toys) {
-    console.log(toy.name);
+    console.log(`The ${toy.name} costs ${toy.price} dollars and weights ${toy.weight} pounds.`);
 }
 
