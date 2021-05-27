@@ -28,7 +28,24 @@ const toys = [
     }
 ]
 
+const lego = {
+    id: 5,
+    name: "Star Wars Lego Set",
+    price: 20,
+    weight: 2
+}
+
+const elmo = {
+    id: 6,
+    name: "Tickle Me Elmo",
+    price: 7,
+    weight: 4
+}
+
+toys.push(lego);
+toys.push(elmo);
+
 for (const toy of toys) {
-    console.log(toy.name)
+    console.log(toy.name);
 }
 
